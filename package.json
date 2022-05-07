@@ -1,0 +1,19 @@
+{
+  "name": "contact_app",
+  "version": "1.0.0",
+  "description": "Contact App",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "firebase-admin": "^5.7.0"
+  }
+}
