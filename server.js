@@ -18,7 +18,7 @@ app.use(session({
 }));
 var sess;
 const admin = require('firebase-admin');
-var serviceAccount = require("path/to/serviceAccountKey.json");
+var serviceAccount = require("./contact-manager-89861-firebase-adminsdk-taeqj-6b873d1a2f.json");
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
 });
@@ -625,4 +625,4 @@ app.post('/delete_detail', function(req, res) {
 
 });
 app.use('/', express.static(__dirname + '/public/'));
-app.listen(3000);
+app.listen(3003);
